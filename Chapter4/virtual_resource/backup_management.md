@@ -48,7 +48,7 @@ HYPERX云管理平台支持用户对磁盘备份进行管理，支持的功能�
 
 ② 将会弹出“创建磁盘”的操作提示框，填写新虚拟磁盘的名称后，点击“确定”按钮，即可使用选定的备份创建一块新的虚拟磁盘，并将备份中的数据全部恢复到新磁盘中：
 
-<img src="backup_management.assets/image-20210121101612913.png" alt="image-20210121101612913" style="zoom:50%;" />
+<img src="backup_management.assets/image-20210326131131463.png" alt="image-20210326131131463" style="zoom:50%;" />
 
 > [!NOTE]
 >

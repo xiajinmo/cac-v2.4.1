@@ -4,7 +4,7 @@
 
 在“资源管理”菜单下选择左侧“设备管理”的导航菜单，之后点击“外部设备”的子菜单，即可看到外部设备的管理界面：
 
-![image-20210126150905805](peripheral_devices.assets/image-20210126150905805.png)
+![image-20210326131357015](peripheral_devices.assets/image-20210326131357015.png)
 
 外部设备的管理界USB和GPU两个管理界面，默认显示的是USB管理界面：
 
@@ -32,11 +32,11 @@ HYPERX云管理平台支持管理员对外部设备进行管理，支持的功�
 
 ① 在外部设备管理界面的“USB”选项卡中，选择需要挂载USB的设备，点击操作列的“挂载”按钮：
 
-![image-20201224185143046](peripheral_devices.assets/image-20201224185143046.png)
+![image-20210326131427820](peripheral_devices.assets/image-20210326131427820.png)
 
 ② 将会弹出“挂载虚拟机”的操作提示框，选择需要挂载USB的虚拟机后，点击“确定“按钮，即可将USB挂载至虚拟机：
 
-<img src="peripheral_devices.assets/image-20210121185739777.png" alt="image-20210121185739777" style="zoom:50%;" />
+<img src="peripheral_devices.assets/image-20210326131530108.png" alt="image-20210326131530108" style="zoom:50%;" />
 
 > [!NOTE]
 >
