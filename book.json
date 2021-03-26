@@ -1,0 +1,95 @@
+{
+  "title": "HyperX Cloud Manager 用户手册",
+  "description": "HyperX Cloud Manager 用户手册",
+  "language": "zh-hans",
+  "plugins": [
+    "yahei",
+    "katex",
+    "expandable-chapters",
+    "back-to-top-button",
+    "splitter",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "anchor-navigation-ex",
+    "alerts",
+    "insert-logo",
+    "popup",
+    "tbfed-pagefooter",
+    "hide-element",
+    "lightbox",
+    "flexible-alerts",
+    "alerts"
+  ],
+  "pluginsConfig": {
+    "lightbox": {
+      "options": {
+        "fitImagesInViewport": true
+      }
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy Rynnova 2021",
+      "modify_label": "本文档修订时间：",
+      "modify_format": "2021-01-29" 
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "insert-logo": {
+      "url": "/helpcenter/images/hyper-logo.png",
+      "style": "background: none; max-height: 15px; min-height: 60px"
+    },
+    "pluginsConfig": {
+      "flexible-alerts": {
+        "note": {
+          "label": {
+            "de": "Hinweis",
+            "en": "Note"
+          }
+        },
+        "tip": {
+          "label": {
+            "de": "Tipp",
+            "en": "Tip"
+          }
+        },
+        "warning": {
+          "label": {
+            "de": "Warnung",
+            "en": "Warning"
+          }
+        },
+        "danger": {
+          "label": {
+            "de": "Achtung",
+            "en": "Attention"
+          }
+        }
+      }
+    },
+    "fontSettings": {
+      "theme": "white",
+      "family": "msyh",
+      "size": 2
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "showGoTop": false
+    }
+  },
+  "links" : {
+      "sidebar" : {
+          "下载本文档" : "https://pan.rynnova.com/s/97ty9zw4CA8tZPF#pdfviewer"
+      }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 13,
+    "margin": {
+      "right": 10,
+      "left": 10,
+      "top": 10,
+      "bottom": 15
+    }
+  }
+}

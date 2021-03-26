@@ -1,0 +1,100 @@
+# Summary
+
+* 0.平台导入License
+    * [0.1平台导入License](Chapter0/license.md)
+* 1.简介
+    * [1.1.平台概述](README.md)
+* 2.说明
+    * [2.1.平台用户权限说明](Chapter2/permission_description.md)
+* 3.总览
+    * 3.1.超级管理员
+        * [3.1.1.超级管理员总览界面](Chapter3/root_manager_view.md)
+        * [3.1.2.区域分布图页面](Chapter3/regional_distribution.md)
+    * [3.2.业务管理员总览界面](Chapter3/company_manager_view.md)
+    * [3.3.部门管理员总览界面](Chapter3/department_manager_view.md)
+    * [3.4.普通用户总览界面](Chapter3/user_manager_view.md)
+* 4.资源管理
+    * 4.1.概览
+        * [4.1.1.资源概览](Chapter4/zone_summary.md)
+        * [4.1.2.集群监控](Chapter4/cluster_monitor.md)
+        * [4.1.3.存储监控](Chapter4/ceph_monitor.md)
+    * 4.2.虚拟资源管理
+        * [4.2.1.虚拟机管理](Chapter4/virtual_resource/vm_management.md)
+        * [4.2.2.虚拟机快照管理](Chapter4/virtual_resource/snapshsot_management.md)
+        * [4.2.3.虚拟磁盘管理](Chapter4/virtual_resource/volume_management.md)
+        * [4.2.4.磁盘备份管理](Chapter4/virtual_resource/backup_management.md)
+        * [4.2.5.SSH密钥管理](Chapter4/virtual_resource/ssh_management.md)
+        * [4.2.6.回收站管理](Chapter4/virtual_resource/recycle_management.md)
+    * 4.3.网络管理
+        * [4.3.1.基础网络管理](Chapter4/network_management/basic_network.md)
+        * [4.3.2.VPC管理](Chapter4/network_management/vpc_network.md)
+        * [4.3.3.公网IP管理](Chapter4/network_management/public_ip.md)
+        * [4.3.4.VPN网关管理](Chapter4/network_management/vpn_gateway.md)
+        * [4.3.5.拓扑结构](Chapter4/network_management/topology.md)
+    * 4.4.区域管理
+        * [4.4.1.亲和组管理](Chapter4/zone_management/affinity_management.md)
+        * [4.4.2.镜像管理](Chapter4/zone_management/template_management.md)
+        * 4.4.3.资源规格管理
+            * [4.4.3.1.虚拟机规格管理](Chapter4/zone_management/resource_specifications/vm_specification.md)
+            * [4.4.3.2.磁盘规格管理](Chapter4/zone_management/resource_specifications/volume_specification.md)
+            * [4.4.3.3.镜像定价管理](Chapter4/zone_management/resource_specifications/template_price.md)
+            * [4.4.3.4.其他定价管理](Chapter4/zone_management/resource_specifications/other_price.md)
+            * [4.4.3.5.资源规格组管理](Chapter4/zone_management/resource_specifications/specification_group.md)
+        * [4.4.4.资源访问控制管理](Chapter4/zone_management/resource_control.md)
+        * [4.4.5.文件资源管理](Chapter4/zone_management/file_management.md)
+    * 4.5.设备管理
+        * [4.5.1.主机管理](Chapter4/equipment_management/host_management.md)
+        * [4.5.2.外部设备管理](Chapter4/equipment_management/peripheral_devices.md)
+        * [4.5.3.裸金属服务器管理](Chapter4/equipment_management/bare_metal.md)
+    * 4.6.应用服务管理
+        * [4.6.1.应用市场管理](Chapter4/application_service/application_market.md)
+        * [4.6.2.应用类别管理](Chapter4/application_service/application_type.md)
+        * [4.6.3.应用设定管理](Chapter4/application_service/application_design.md)
+* 5.企业管理
+    * 5.1.组织管理
+        * [5.1.1.公司管理](Chapter5/organization_management/company_management.md)
+        * [5.1.2.部门管理](Chapter5/organization_management/department_management.md)
+    * 5.2.角色管理
+        * [5.2.1.角色管理](Chapter5/role/role_management.md)
+        * [5.2.2.角色模板管理](Chapter5/role/role_template.md)
+    * [5.3.用户管理](Chapter5/user_management.md)
+    * [5.4.配额管理](Chapter5/quota_management.md)
+    * [5.5.资源标签管理](Chapter5/tags_management.md)
+* 6.运营中心
+    * [6.1.资源分布图](Chapter6/resource_distribution.md)
+    * [6.2.费用统计](Chapter6/total_expenses.md)
+    * [6.3.用户报表](Chapter6/user_report.md)
+    * 6.4.资源统计
+        * [6.4.1.虚拟机清单](Chapter6/resource_statistics/vm_list.md)
+        * [6.4.2.部门资源TOP5](Chapter6/resource_statistics/department_top5.md)
+        * [6.4.3.虚拟机数量趋势](Chapter6/resource_statistics/vm_trend.md)
+* 7.系统管理
+    * 7.1.平台日志管理
+        * [7.1.1.登录日志管理](Chapter7/login_log.md)
+        * [7.1.2.资源操作日志管理](Chapter7/recourse_operation_log.md)
+    * 7.2.平台系统配置
+        * [7.2.1.界面配置管理](Chapter7/ui_configuration.md)
+        * [7.2.2.邮箱配置管理](Chapter7/email_configuration.md)
+        * [7.2.3.登录安全管理](Chapter7/login_safe.md)
+        * [7.4.2.全局组件设置](Chapter7/component.md)
+        * [7.2.5.AD配置管理](Chapter7/ad_configuration.md)
+        * [7.2.6.Email模板管理](Chapter7/email_template.md)
+        * [7.2.7.维护模式设置](Chapter7/maintenance.md)
+        * [7.2.8.公告信息配置](Chapter7/notice.md)
+        * [7.2.9.区域地理位置管理](Chapter7/zone_position.md)
+    * 7.3.资源提醒回收
+        * [7.3.1.虚拟机回收机制管理](Chapter7/vm_recycle.md)
+        * [7.3.2.闲置虚拟磁盘提醒管理](Chapter7/free_disk.md)
+        * [7.3.3.虚拟机用量提醒管理](Chapter7/vm_used.md)
+    * 7.4.系统参数管理
+        * [7.4.1.全局参数配置](Chapter7/global_settings.md)
+        * [7.4.2.全局组件设置管理](Chapter7/component.md)
+        * [7.4.3.应用程序存储库管理](Chapter7/nfs_storage.md)
+        * [7.4.4.平台服务健康检测](Chapter7/php_checkhealth.md)
+    * 7.5.数据同步管理
+        * [7.5.1.计费数据同步管理](Chapter7/cost_sync.md)
+        * [7.5.2.底层数据导入管理](Chapter7/acs_sync.md)
+* 8.其他功能
+    * [8.1.个人设置](Chapter8/personal_settings.md)
+    * [8.2.工单](Chapter8/tickets.md)
+
