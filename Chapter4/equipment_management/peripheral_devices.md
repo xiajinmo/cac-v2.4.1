@@ -20,7 +20,7 @@ HYPERX云管理平台支持管理员对外部设备进行管理，支持的功�
 - 挂载USB：将选定的USB挂载到指定虚拟机中；
 - 卸载USB：将选定的USB从虚拟机上卸载；
 - 挂载GPU：将选定的GPU挂载到指定虚拟机中；
-- 卸载GPU：将选定的UGPU从虚拟机上卸载。
+- 卸载GPU：将选定的GPU从虚拟机上卸载。
 
 操作入口如下：
 
@@ -36,7 +36,7 @@ HYPERX云管理平台支持管理员对外部设备进行管理，支持的功�
 
 ② 将会弹出“挂载虚拟机”的操作提示框，选择需要挂载USB的虚拟机后，点击“确定“按钮，即可将USB挂载至虚拟机：
 
-<img src="peripheral_devices.assets/image-20210326131530108.png" alt="image-20210326131530108" style="zoom:50%;" />
+<img src="peripheral_devices.assets/image-20210329092834431.png" alt="image-20210329092834431" style="zoom:50%;" />
 
 > [!NOTE]
 >
@@ -46,11 +46,11 @@ HYPERX云管理平台支持管理员对外部设备进行管理，支持的功�
 
 ① 在外部设备管理界面的“USB”选项卡中，选择需要卸载USB的设备，点击操作列的“卸载”按钮：
 
-![image-20201224185517154](peripheral_devices.assets/image-20201224185517154.png)
+![image-20210329092930503](peripheral_devices.assets/image-20210329092930503.png)
 
 ② 将会弹出“卸载USB”的操作提示框，选择需要挂载USB的虚拟机后，点击“确定“按钮，即可将USB挂载至虚拟机：
 
-<img src="peripheral_devices.assets/image-20201224185533587.png" alt="image-20201224185533587" style="zoom:50%;" />
+<img src="peripheral_devices.assets/image-20210329092956742.png" alt="image-20210329092956742" style="zoom:50%;" />
 
 ### 挂载GPU 
 
@@ -60,7 +60,7 @@ HYPERX云管理平台支持管理员对外部设备进行管理，支持的功�
 
 ② 将会弹出“挂载虚拟机”的操作提示框，选择需要挂载GPU的虚拟机后，点击“确定“按钮，即可将GPU挂载至虚拟机：
 
-<img src="peripheral_devices.assets/image-20201222173003479.png" alt="image-20201222173003479" style="zoom:50%;" />
+<img src="peripheral_devices.assets/image-20210329093214975.png" alt="image-20210329093214975" style="zoom:50%;" />
 
 > [!NOTE]
 >
