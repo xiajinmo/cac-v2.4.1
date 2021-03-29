@@ -38,7 +38,7 @@ HYPERX云管理平台支持用户对公网IP进行管理，支持的功能如下
 
 <img src="public_ip.assets/image-20210127100627964.png" alt="image-20210127100627964" style="zoom:50%;" />
 
-> [!NOTE]
+> *注：
 >
 > - 仅有Source NAT的公网IP支持启用VPN功能；
 >
@@ -65,7 +65,7 @@ HYPERX云管理平台支持用户对公网IP进行管理，支持的功能如下
 
 <img src="public_ip.assets/image-20210127101403217.png" alt="image-20210127101403217" style="zoom:50%;" />
 
-> [!NOTE]
+> *注：
 >
 > - 仅支持将状态处于“未分配”的公网IP设置到专用网络中；
 > - 支持将公网IP分配给基础网络或VPC网络。

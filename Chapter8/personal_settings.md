@@ -9,9 +9,7 @@ HYPERX云管理平台支持用户配置个人设置，支持的功能如下：
 - 语言偏好：用户可以选择云平台显示的默认语言，支持中文或英文；
 - 个人设置：支持用户修改头像、个人信息、密码，查看API信息；
 - 夜间模式：支持主题的切换；
-- 调试API接口：支持查看API接口文档，输入API密钥调试调用平台提供的API接口；
-- 授权信息：支持查看平台的授权信息；
-- 平台版本号：支持查看当前平台的版本信息。
+- 调试API接口：支持查看API接口文档，输入API密钥调试调用平台提供的API接口 。
 
 
 操作入口如下：
@@ -27,15 +25,15 @@ HYPERX云管理平台支持用户配置个人设置，支持的功能如下：
 
 ① 点击云平台右上角个人头像(用户名)处的菜单，选择“English”：
 
-<img src="personal_settings.assets/image-20210208145353495.png" alt="image-20210208145353495" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328225227951.png" alt="image-20210328225227951" style="zoom:50%;" />
 
 ② 即可设置云平台默认语言为英文：
 
 ![image-20210127112802596](personal_settings.assets/image-20210127112802596.png)
 
-③ 点击云平台右上角个人头像(用户名)处的菜单，选择“中文”：
+③ 点击云平台右上角个人头像(用户名)处的菜单，选择“Chinese”：
 
-<img src="personal_settings.assets/image-20210208145332102.png" alt="image-20210208145332102" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328225323156.png" alt="image-20210328225323156" style="zoom:50%;" />
 
 ④ 即可设置云平台默认语言为中文：
 
@@ -45,20 +43,17 @@ HYPERX云管理平台支持用户配置个人设置，支持的功能如下：
 
 ① 点击云平台右上角个人头像(用户名)处的菜单，选择“个人设置”菜单：
 
-<img src="personal_settings.assets/image-20210208145257341.png" alt="image-20210208145257341" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328225429508.png" alt="image-20210328225429508" style="zoom:50%;" />
 
-② 将会进入个人设置的页面，修改相关信息后点击“保存”按钮，即可配置用户个人信息：
+② 将会进入个人设置的页面，修改相关信息后点击“确定”按钮，即可配置用户个人信息：
 
-![image-20201228115709783](personal_settings.assets/image-20201228115709783.png)
+![image-20210328225550045](personal_settings.assets/image-20210328225550045.png)
 
-> [!NOTE]
+> *注：
 >
 > - 用户头像：用户可以点击头像，上传用户头像，用户头像尺寸须小于25*25像素，大小须小于1MB；
 > - 个人信息：用户可以修改用户名、邮箱、显示名等信息，修改完成后点击“保存”按钮更新个人信息；
-> - 用户的公司、部门和角色不支持在“个人设置”中进行修改，只支持查阅；
-> - 用户输入的密码应至少包含一个大写字母、一个数字和一个特殊字符且不小于8位；
-> - 若为该用户启用API功能，则该用户可以查看API密钥和Secret密钥用于调试API接口文档；
-> - 如需开启用户API，查阅用户管理章节。
+> - 用户的公司、部门和角色不支持在“个人设置”中进行修改，只支持查阅。
 
 ### 夜间模式
 
@@ -66,11 +61,11 @@ HYPERX云管理平台支持用户配置个人设置，支持的功能如下：
 
 ① 点击云平台右上角个人头像(用户名)处的菜单，打开“夜间模式”：
 
-<img src="personal_settings.assets/image-20210208145203902.png" alt="image-20210208145203902" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328225908750.png" alt="image-20210328225908750" style="zoom:50%;" />
 
 ② 即可进入云平台的夜间模式：
 
-![image-20210127113028799](personal_settings.assets/image-20210127113028799.png)
+![image-20210328230009349](personal_settings.assets/image-20210328230009349.png)
 
 ### 调试API接口
 
@@ -78,7 +73,7 @@ HYPERX云管理平台支持用户配置个人设置，支持的功能如下：
 
 ① 点击云平台右上角个人头像(用户名)处的菜单，选择“API”菜单：
 
-<img src="personal_settings.assets/image-20210208145101567.png" alt="image-20210208145101567" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328230039537.png" alt="image-20210328230039537" style="zoom:50%;" />
 
 ② 即可进入API的调试接口界面：
 
@@ -105,20 +100,46 @@ API的详情链表由规范用例、调试参数和结果参考组成。
 
 ### 授权信息
 
-云平台支持用户查看云平台的授权信息。
-
 ① 点击云平台右上角个人头像(用户名)处的菜单，选择“授权信息”菜单：
 
-<img src="personal_settings.assets/image-20210208144814293.png" alt="image-20210208144814293" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328230702740.png" alt="image-20210328230702740" style="zoom:50%;" />
 
-② 将会弹出“授权信息”的浮框，显示云平台到期的时间：
+② 将会弹出“授权信息”确认框，可获取授权的到期时间：
 
-<img src="personal_settings.assets/image-20210208144834161.png" alt="image-20210208144834161" style="zoom:50%;" />
+<img src="personal_settings.assets/image-20210328230824721.png" alt="image-20210328230824721" style="zoom:50%;" />
+
+### API信息
+
+① 点击云平台右上角个人头像(用户名)处的菜单，选择“API信息”菜单：
+
+<img src="personal_settings.assets/image-20210328231020941.png" alt="image-20210328231020941" style="zoom:50%;" />
+
+② 将会弹出“API信息”确认框，若为该用户启用API功能，则该用户可以查看API密钥和Secret密钥用于调试API接口文档：
+
+<img src="personal_settings.assets/image-20210328231106930.png" alt="image-20210328231106930" style="zoom:50%;" />
+
+
+
+> *注：
+>
+> - 如需开启用户API，查阅用户管理章节。
+
+### 修改密码
+
+① 点击云平台右上角个人头像(用户名)处的菜单，选择“修改密码”菜单：
+
+<img src="personal_settings.assets/image-20210328231500599.png" alt="image-20210328231500599" style="zoom:50%;" />
+
+② 将会弹出“修改密码”操作框，填写旧密码、新密码已经确认密码后，点击“确定”可修改密码：
+
+<img src="personal_settings.assets/image-20210328231624124.png" alt="image-20210328231624124" style="zoom:50%;" />
+
+> *注：
+>
+> - 用户输入的密码应至少包含一个大写字母、一个数字和一个特殊字符且不小于8位。
 
 ### 查看平台版本号
 
-云平台支持用户查看当前平台的版本信息。
-
 在左侧导航栏底部，即可看到云平台的版本号信息：
 
-<img src="personal_settings.assets/image-20210208145024100.png" alt="image-20210208145024100" style="zoom: 67%;" />
+![image-20210328230524012](personal_settings.assets/image-20210328230524012.png)
